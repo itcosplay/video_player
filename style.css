@@ -1,11 +1,26 @@
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 #player {
     box-shadow: 10px 10px 7px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
     height: 600px;
     width: 800px;
 }
 
+.js-video-container {
+    flex-grow: 1;
+}
+
 .wrapper-buttons {
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .wrapper-buttons button {
@@ -13,4 +28,30 @@
     border: none;
     color: white;
     cursor: pointer;
+    font-size: 15pt;
+    height: 30px;
+    line-height: 1.5;
+    width: 30px;
+}
+
+.wrapper-buttons-time button {
+    margin-right: 20px;
+}
+
+.wrapper-buttons-time {
+    align-items: center;
+    display: flex;
+}
+
+.time-progress {
+    color: rgba(100, 100, 100);
+}
+
+.js-progress {
+    background-color: lightgray;
+}
+
+.js-progress-slider {
+    background-color: darkgrey;
+    color: rgba(0, 0, 0, 0);
 }
