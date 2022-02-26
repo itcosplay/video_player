@@ -1,0 +1,16 @@
+#player {
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, .2);
+    height: 600px;
+    width: 800px;
+}
+
+.wrapper-buttons {
+    background-color: black;
+}
+
+.wrapper-buttons button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
